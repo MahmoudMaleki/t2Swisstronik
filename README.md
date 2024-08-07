@@ -34,21 +34,5 @@ Ensure you have the following installed:
 
 2. Follow the prompts to enter your private key and specify the token name and symbol.
 
-## Scripts
+3. git add . && git commit -m "feat: initiated the project" && git push origin main
 
-### `deploy.js`
-
-This script deploys the ERC-20 contract and saves the deployed contract address to `contract.txt`.
-
-### `mint.js`
-
-This script mints 100 tokens using the deployed contract. It reads the contract address from `contract.txt`.
-
-### `transfer.js`
-
-This script transfers tokens from the contract to a specified address. It reads the contract address from `contract.txt`.
-
-## Notes
-
-- Ensure your private key is kept secure.
-- The `transfer.js` script is set to transfer tokens to the address `0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1` with an amount of `1 * 10 ** 18` tokens. Modify these values as needed.
