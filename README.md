@@ -35,7 +35,7 @@ Ensure you have the following installed:
 2. Follow the prompts to enter your private key and specify the token name and symbol.
 
 
-3.     ```bash
+3.  ```bash
    git add . && git commit -m "feat: initiated the project" && git push origin main
     ```
 
